@@ -1,0 +1,33 @@
+
+
+// Inputs some numbers and computes their average
+class Main {
+   function void main() {
+     var Array b; 
+     var int length;
+     var int average;
+
+     var Array a;  
+     var int i, sum;
+
+     // Kill time
+     let i = 0; 
+     while (i < 10) {
+        let i = i + 1;
+     }
+
+     let a = Array.new(length); // constructs the array
+     
+     let i = 0;
+     while (i < length) {
+        let a[i] = b[i];
+        let sum = sum + a[i];
+        let i = i + 1;
+     }
+     
+     let average = sum / length;
+     do Output.printString("The average is ");
+     do Output.printInt(average);
+     return;
+   }
+}
